@@ -1,4 +1,4 @@
-//simple constructor esample:
+////////////////////////simple constructor esample:
 //-------------------------------------------------------
 function Mobile(){  //constructor method
     this.model = '123fd';       // we must use this. because this points to the newly created object instance
