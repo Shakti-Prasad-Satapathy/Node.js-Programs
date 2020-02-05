@@ -1,0 +1,12 @@
+{
+    "Doctors": [
+        {
+            "Name": "Dr.X",
+            "ID": "001",
+            "Specialization": "Medicin",
+            "Availability": "PM",
+            "no_of_appointment": 3,
+            "total_no_op_patient" : 10
+        }
+    ]
+}

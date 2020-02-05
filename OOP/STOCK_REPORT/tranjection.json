@@ -1,0 +1,18 @@
+{
+    "Tranjections": [
+        {
+            "From": "TATA",
+            "Type": "buy",
+            "Number_of_shares": "44",
+            "Price_per_shares": 94,
+            "Total_Share_Price": 4136
+        },
+        {
+            "From": "TATA",
+            "Type": "buy",
+            "Number_of_shares": "10",
+            "Price_per_shares": 94,
+            "Total_Share_Price": 940
+        }
+    ]
+}

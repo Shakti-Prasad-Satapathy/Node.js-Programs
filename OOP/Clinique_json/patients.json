@@ -1,0 +1,10 @@
+{
+    "Patients": [
+        {
+            "Name": "SPS",
+            "ID": "001",
+            "Mobile_Number": "7894563214",
+            "Age": "55"
+        }
+    ]
+}

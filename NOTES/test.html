@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+
+<h1> inside h1 tag </h1>
+<h2>inside h2 tag </h2>
+<p id = "id1">inside 1st "p" tag
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+</p>
+<p id = "id2">inside 2nd "p" tag </p>
+
+<script>
+    // getElementById()
+    var result = document.getElementById("id1") //store reult value in a variable
+    // document.write(result); //this will show the type of the object in the document
+    console.log(result);    //this will return the perticular tag where the id was defined as a result in console
+    
+    // getElementsByTagName()
+    var result1 = document.getElementsByTagName("p") //store reult value list of all <p> present in the document in a list format in a variable
+    // document.write(result); //this will show the type of the object in the document
+    console.log(result1);    //this will show the perticular tag details in console
+    var result2 = document.getElementsByTagName("*")//this will store the reult value list of all tags available in the document in a list format in a variable
+    console.log(result2);    //this will show the all tags available in the document in console
+    var result3 = document.body.getElementsByTagName("*")//this will store the reult value list of all tags available inside <body> tag in a list format in a variable
+    console.log(result3);    //this will show the all tags available inside <body> tag in console
+
+        /************* Should work but not working now *******************/
+    // var resultx = document.getElementById("id1");  //this will show the all <h6> tags available inside a <p> tag whose id is "id1" in console
+    // console.log(resultx);
+    // var result4 = resultx.getElementsByTagName("p");
+    // console.log(result4);
+    // // console.log(resultx);
+
+</script>
+    
+</body>
+</html>

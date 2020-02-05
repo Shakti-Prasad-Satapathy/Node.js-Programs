@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style media="screen">
+        .square{
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            display: inline-block;
+            margin-right: 10px;
+            background-color: black;
+            color: blanchedalmond;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+
+    <script src = "./js/module.js" charset = "utf-8"></script>
+    <script src = "./js/ElementObserver.js" charset = "utf-8"></script>
+    <script type = "text/javascript">
+        const model = new NumberModel();
+        const eObs1 = new ElementObserver('elementObserver1');
+
+        model.addObserver(eObs1);
+        model.notifyObservers();
+    </script>
+
+
+</head>
+<body>
+    <div class = "square" id = "elementobserver1">
+
+    </div>
+    <hr>
+
+    <button type ="button" onclick="model.incriment()">Incriment</button>
+
+    
+    
+</body>
+</html>

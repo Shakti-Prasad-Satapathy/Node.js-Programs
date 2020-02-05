@@ -1,0 +1,14 @@
+{
+    "TATA": {
+        "Number_of_shares": 390,
+        "Price_per_shares": 94
+    },
+    "Relaince": {
+        "Number_of_shares": 452,
+        "Price_per_shares": 37
+    },
+    "Infosys": {
+        "Number_of_shares": 412,
+        "Price_per_shares": 32
+    }
+}
