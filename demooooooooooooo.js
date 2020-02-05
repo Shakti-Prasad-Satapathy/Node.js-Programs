@@ -29,6 +29,7 @@ nokia.color = 'black'   // in this case this property is  available for nokia ob
 // to make it available for all  onjects we cn write as:-> "Classname.prototype.key = 'value' " where prototype is a key
 // this property is called as prototype member
 Mobile.prototype.color = 'black'
+
 // but this will never reflect in the console
 nokia.price()
 oppo.price()
